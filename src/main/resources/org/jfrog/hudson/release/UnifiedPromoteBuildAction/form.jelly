@@ -37,14 +37,19 @@
                                                     </j:forEach>
                                                 </select>
                                             </f:entry>
-                                            <f:entry field="includeDependencies"
+                                            <div>
+                                                <p>
+                                                    * This has been disabled *
+                                                </p>
+                                            </div>
+                                            <!-- <f:entry field="includeDependencies"
                                                      help="/plugin/artifactory/help/release/PromoteBuildAction/help-includeDependencies.html">
                                                 <f:checkbox default="false" name="includeDependencies"/>
                                                 <label class="attach-previous">${%Include dependencies}</label>
-                                            </f:entry>
+                                            </f:entry> -->
                                             <f:entry field="useCopy"
                                                      help="/plugin/artifactory/help/release/PromoteBuildAction/help-useCopy.html">
-                                                <f:checkbox default="false" name="useCopy"/>
+                                                <f:checkbox default="true" name="useCopy"/>
                                                 <label class="attach-previous">${%Use copy}</label>
                                             </f:entry>
                                         </j:when>
